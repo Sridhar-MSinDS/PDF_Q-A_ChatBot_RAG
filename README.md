@@ -27,8 +27,11 @@ FAISS	Fast vector similarity search
 # 📂 Project Structure
 
 ├── app.py                # Streamlit application
+
 ├── requirements.txt      # Dependencies
+
 ├── README.md             # This file
+
 🧠 How It Works (Architecture)
 User uploads a PDF via Streamlit sidebar.
 
@@ -58,7 +61,7 @@ bash
 git clone https://github.com/yourusername/pdf-qa-chatbot.git
 cd pdf-qa-chatbot
 
-##📦 2. Install dependencies:
+## 📦 2. Install dependencies:
 bash
 
 pip install -r requirements.txt
@@ -68,7 +71,8 @@ bash
 
 pip install streamlit langchain openai PyPDF2 faiss-cpu
 
-##🔑 3. Add your OpenAI API key:
+## 🔑 3. Add your OpenAI API key:
+
 In app.py, replace:
 
 python
@@ -83,7 +87,7 @@ python
 import os
 OpenAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-##▶️ 4. Run the Streamlit app:
+## ▶️ 4. Run the Streamlit app:
 bash
 
 streamlit run app.py
@@ -98,14 +102,16 @@ Ask a question like:
 
 The bot will fetch context and generate a smart answer!
 
-#🧪 Example Prompt Used
+# 🧪 Example Prompt Used
+
 text
 
 You are an intelligent and helpful assistant specialized in summarizing and answering questions from study notes.
 Use the provided context extracted from the user's PDF notes to answer the question accurately and concisely.
 If the answer is not available in the context, say: "I'm sorry, I couldn't find that information in the uploaded PDF."
 
-#✅ To-Do / Improvements
+# ✅ To-Do / Improvements
+
  Add support for multi-page PDF display
 
  Cache embeddings to reduce re-computation
@@ -114,10 +120,12 @@ If the answer is not available in the context, say: "I'm sorry, I couldn't find 
 
  Save chat history per session
 
-#📄 License
+# 📄 License
+
 This project is licensed under the MIT License.
 
-#👋 Acknowledgments
+# 👋 Acknowledgments
+
 LangChain
 
 OpenAI
