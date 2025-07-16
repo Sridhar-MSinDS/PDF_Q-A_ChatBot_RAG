@@ -1,7 +1,10 @@
-#📄 ChatBot – PDF Q&A Chatbot using LangChain, OpenAI, and Streamlit
-This ChatBot is an AI-powered chatbot that allows users to upload any PDF (like study notes, documents, or reports) and ask questions about its content. It uses LangChain, OpenAI's GPT-3.5, and FAISS for intelligent retrieval-based question answering, and is built using Streamlit for an interactive web interface.
+# 📄 ChatBot – PDF Q&A Chatbot using LangChain, OpenAI, and Streamlit
 
-#🚀 Features
+This ChatBot is an AI-powered chatbot that allows users to upload any PDF (like study notes, documents, or reports) and ask questions about its content. 
+It uses LangChain, OpenAI's GPT-3.5, and FAISS for intelligent retrieval-based question answering, and is built using Streamlit for an interactive web interface.
+
+# 🚀 Features
+
 🔍 Extracts and understands content from any PDF.
 
 🤖 Answers questions using GPT-3.5-turbo based on PDF content.
@@ -12,7 +15,8 @@ This ChatBot is an AI-powered chatbot that allows users to upload any PDF (like 
 
 💻 Simple UI using Streamlit.
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
+
 Tool	Purpose
 Streamlit	UI for uploading PDFs and entering queries
 PyPDF2	PDF text extraction
@@ -20,7 +24,7 @@ LangChain	Q&A chain and prompt templates
 OpenAI API	GPT-3.5-turbo LLM & Embeddings
 FAISS	Fast vector similarity search
 
-#📂 Project Structure
+# 📂 Project Structure
 
 ├── app.py                # Streamlit application
 ├── requirements.txt      # Dependencies
@@ -42,13 +46,13 @@ The relevant chunks are retrieved and passed to GPT-3.5 using LangChain's Q&A ch
 
 The answer is displayed in the Streamlit app.
 
-#🧾 Setup Instructions
+# 🧾 Setup Instructions
 ✅ Prerequisites:
 Python 3.8+
 
 OpenAI API key (get from https://platform.openai.com)
 
-##🔧 1. Clone the repository:
+## 🔧 1. Clone the repository:
 bash
 
 git clone https://github.com/yourusername/pdf-qa-chatbot.git
