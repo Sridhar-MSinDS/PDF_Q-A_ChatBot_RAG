@@ -1,13 +1,13 @@
-# 📄 ChatBot – PDF Q&A Chatbot using LangChain, OpenAI, and Streamlit
+# 📄 ChatBot – PDF Q&A Chatbot using LangChain, Embeddings, LLM and Streamlit
 
 This ChatBot is an AI-powered chatbot that allows users to upload any PDF (like study notes, documents, or reports) and ask questions about its content. 
-It uses LangChain, OpenAI's GPT-3.5, and FAISS for intelligent retrieval-based question answering, and is built using Streamlit for an interactive web interface.
+It uses LangChain, OpenAI's GPT-3.5/Groq API Key, and FAISS for intelligent retrieval-based question answering, and is built using Streamlit for an interactive web interface.
 
 # 🚀 Features
 
 🔍 Extracts and understands content from any PDF.
 
-🤖 Answers questions using GPT-3.5-turbo based on PDF content.
+🤖 Answers questions using GPT-3.5-turbo/Groq API Key based on PDF content.
 
 🧠 Uses OpenAI embeddings + FAISS vector store for semantic search.
 
@@ -21,7 +21,7 @@ Tool	Purpose
 Streamlit	UI for uploading PDFs and entering queries
 PyPDF2	PDF text extraction
 LangChain	Q&A chain and prompt templates
-OpenAI API	GPT-3.5-turbo LLM & Embeddings
+OpenAI API	GPT-3.5-turbo / Groq(Llama, Mistral, Gemma) LLM & Embeddings
 FAISS	Fast vector similarity search
 
 # 📂 Project Structure
